@@ -2,14 +2,15 @@
 import math
 import doctest
 '''
-Integer Squaring Algorithm
-Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)
-Chapter : 5
-Page : 80
-
-By : Sepand Haghighi & Mohammad Abassi
+    By : Sepand Haghighi & Mohammad Abassi
 '''
 def IntegerSquaring(Input_integer):
+    '''
+    Integer Squaring Algorithm
+    Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)
+    Chapter : 5
+    Page : 80
+    '''
     IntegerList=list(map(int,list(str(Input_integer))))
     IntegerList.reverse()
     IntegerLength=len(IntegerList)
@@ -45,6 +46,12 @@ def IntegerSquaring(Input_integer):
     return int("".join(d))
 
 def IntegerMultiplication(Input_integer_1,Input_integer_2):
+    '''
+    Integer Squaring Algorithm
+    Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)
+    Chapter : 5
+    Page : 79
+    '''
     IntegerList1 = list(map(int, list(str(Input_integer_1))))
     IntegerList2 = list(map(int, list(str(Input_integer_2))))
     IntegerList1.reverse()
