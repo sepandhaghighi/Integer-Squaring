@@ -1,4 +1,4 @@
-# Integer Multiplication Algorithm #
+# Integer-Squaring Algorithm #
 
 Sepand Haghighi & Mohammad Abassi
 ----------
