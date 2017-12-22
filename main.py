@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 import math
+'''
+Integer Squaring Algorithm
+Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)
+Chapter : 5
+Page : 80
+'''
 def IntegerSquaring(Input_integer):
     IntegerList=list(map(int,list(str(Input_integer))))
     IntegerList.reverse()
@@ -29,7 +35,6 @@ def IntegerSquaring(Input_integer):
         U=0
         UHLPrev=H*10+L
         UHL=0
-
     if L!=0:
         d.append(L)
     d.reverse()
