@@ -1,6 +1,9 @@
 # Integer-Squaring Algorithm #
 
-Sepand Haghighi & Mohammad Abassi
+### Sepand Haghighi & Mohammad Abassi
+
+### Cryptographic Engineering Course Seminar At [Sharif University Of Technology](http://www.sharif.ir/ "Sharif University Of Technology")  
+
 ----------
 
 ### Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)				
@@ -16,4 +19,4 @@ Sepand Haghighi & Mohammad Abassi
 
 </div> 
 
-* It Seems algorithm in book is wrong and `(U,H,L)` should be set to zero after each iteration and add shifted `(U,H,L)` outside of the loop.
+* It seems this algorithm is wrong and `(U,H,L)` should be set to zero after each iteration and add shifted `(U,H,L)` outside of the loop.
