@@ -3,6 +3,7 @@
 ### Sepand Haghighi & Mohammad Abassi
 
 ### Cryptographic Engineering Course Seminar At [Sharif University Of Technology](http://www.sharif.ir/ "Sharif University Of Technology")  
+[![Build Status](https://travis-ci.org/sepandhaghighi/Integer-Squaring.svg?branch=master)](https://travis-ci.org/sepandhaghighi/Integer-Squaring)
 
 ----------
 
