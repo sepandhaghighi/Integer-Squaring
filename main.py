@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
 import math
+import doctest
 '''
 Integer Squaring Algorithm
 Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)
 Chapter : 5
 Page : 80
+
+By : Sepand Haghighi & Mohammad Abassi
 '''
 def IntegerSquaring(Input_integer):
     IntegerList=list(map(int,list(str(Input_integer))))
@@ -39,12 +42,11 @@ def IntegerSquaring(Input_integer):
         d.append(L)
     d.reverse()
     d=list(map(str,d))
-    return "".join(d)
+    return int("".join(d))
 
 
 if __name__=="__main__":
-    Result=IntegerSquaring(4)
-    print(Result)
+    doctest.testfile("test.py", optionflags=doctest.NORMALIZE_WHITESPACE | doctest.ELLIPSIS, verbose=True)
 
 
 
