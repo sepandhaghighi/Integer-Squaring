@@ -33,8 +33,8 @@ def IntegerSquaring(Input_integer):
         U=UHL//100
         H=(UHL-U*100-L)//10
         d.append(L)
-        L=int(H)
-        H=int(U)
+        L=H
+        H=U
         U=0
         UHLPrev=H*10+L
         UHL=0
