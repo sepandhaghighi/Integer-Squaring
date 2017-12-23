@@ -4,7 +4,7 @@ import doctest
 '''
     By : Sepand Haghighi & Mohammad Abassi
 '''
-def IntegerSquaring(Input_integer):
+def IntegerSquaring(Input_integer,Base=10):
     '''
     Integer Squaring Algorithm
     Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)
@@ -30,14 +30,14 @@ def IntegerSquaring(Input_integer):
         else:
             UHL=2*UHL
         UHL=UHL+UHLPrev
-        L=UHL%10
-        U=UHL//100
-        H=(UHL-U*100-L)//10
+        L=UHL%Base
+        U=UHL//(Base**2)
+        H=(UHL-U*(Base**2)-L)//Base
         d.append(L)
         L=H
         H=U
         U=0
-        UHLPrev=H*10+L
+        UHLPrev=H*Base+L
         UHL=0
     if L!=0:
         d.append(L)
@@ -45,7 +45,7 @@ def IntegerSquaring(Input_integer):
     d=list(map(str,d))
     return int("".join(d))
 
-def IntegerMultiplication(Input_integer_1,Input_integer_2):
+def IntegerMultiplication(Input_integer_1,Input_integer_2,Base=10):
     '''
     Integer Squaring Algorithm
     Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)
@@ -69,14 +69,14 @@ def IntegerMultiplication(Input_integer_1,Input_integer_2):
             I=list(range(k-IntegerLength+1,IntegerLength))
         for i in I:
             UHL = UHL + IntegerList1[i] * IntegerList2[k - i]
-        L = UHL % 10
-        U = UHL // 100
-        H = (UHL - U * 100 - L) // 10
+        L = UHL % Base
+        U = UHL // Base**2
+        H = (UHL - U * (Base**2) - L) // Base
         d.append(L)
         L = H
         H = U
         U = 0
-        UHL = H*10+L
+        UHL = H*Base+L
     if L!=0:
         d.append(L)
     d.reverse()
