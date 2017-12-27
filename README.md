@@ -2,7 +2,8 @@
 
 ### Sepand Haghighi & Mohammad Abassi
 
-### Cryptographic Engineering Course Seminar At [Sharif University Of Technology](http://www.sharif.ir/ "Sharif University Of Technology") 
+### Cryptographic Engineering Course Seminar At [Sharif University Of Technology](http://www.sharif.ir/ "Sharif University Of Technology") (Winter 2017)
+### Instructor : [Dr.Siavash Bayat-Sarmadi](http://sharif.edu/~sbayat/ "http://sharif.edu/~sbayat/")
 ### Book : Cryptographic Engineering (Serdar S¨ uer Erdem, Tuˇ grul Yanık, and C ¸ etin Kaya Koc)	 
 [![Build Status](https://travis-ci.org/sepandhaghighi/Integer-Squaring.svg?branch=master)](https://travis-ci.org/sepandhaghighi/Integer-Squaring)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0f5fc6d4f3e84a06b004a716dc1ece6e)](https://www.codacy.com/app/sepand-haghighi/Integer-Squaring?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sepandhaghighi/Integer-Squaring&amp;utm_campaign=Badge_Grade)
