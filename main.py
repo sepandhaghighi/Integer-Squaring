@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import math
 import doctest
-'''
-    By : Sepand Haghighi & Mohammad Abassi
-'''
+
+#By : Sepand Haghighi & Mohammad Abassi
+
 def IntegerSquaring(Input_integer,Base=10):
     '''
      Integer Squaring Algorithm
