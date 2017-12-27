@@ -64,7 +64,7 @@
 # Run
 
 1. Run `main.py` for automatic doctest --> `python main.py` or `python3 main.py`
-2. Import `IntegerSquaring` and `IntegerMultiplication` from main :
+2. Import `IntegerSquaring` and `IntegerMultiplication` from `main.py` :
 ```
 >>> from main import IntegerSquaring,IntegerMultiplication
 >>> from main import IntegerSquaring,IntegerMultiplication
