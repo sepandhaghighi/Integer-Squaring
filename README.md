@@ -8,6 +8,8 @@
 [![Build Status](https://travis-ci.org/sepandhaghighi/Integer-Squaring.svg?branch=master)](https://travis-ci.org/sepandhaghighi/Integer-Squaring)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0f5fc6d4f3e84a06b004a716dc1ece6e)](https://www.codacy.com/app/sepand-haghighi/Integer-Squaring?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sepandhaghighi/Integer-Squaring&amp;utm_campaign=Badge_Grade)
 
+[Download Slides](files/Slides.pdf "Slides") (Format : PDF, Size : 1.1 MB)
+
 ----------
 # Integer Multiplication
 							
@@ -57,4 +59,17 @@
 ```
 >>> IntegerSquaring("1 1",Base=2)
 >>> 1 0 0 1 
+```
+
+# Run
+
+1. Run `main.py` for automatic doctest --> `python main.py` or `python3 main.py`
+2. Import `IntegerSquaring` and `IntegerMultiplication` from main :
+```
+>>> from main import IntegerSquaring,IntegerMultiplication
+>>> from main import IntegerSquaring,IntegerMultiplication
+>>> IntegerSquaring("1 0",Base=10)
+'1 0 0'
+>>> IntegerMultiplication("1 0","1 2",Base=10)
+'1 2 0'
 ```
