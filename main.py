@@ -103,8 +103,7 @@ def IntegerMultiplication(Input_integer_1,Input_integer_2,Base=10):
 
 
 if __name__=="__main__":
-    print(IntegerMultiplication("1 1","1 1",Base=2))
-    #doctest.testfile("test.py", optionflags=doctest.NORMALIZE_WHITESPACE | doctest.ELLIPSIS, verbose=True)
+    doctest.testfile("test.py", optionflags=doctest.NORMALIZE_WHITESPACE | doctest.ELLIPSIS, verbose=True)
 
 
 
