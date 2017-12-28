@@ -65,6 +65,7 @@ Complexity : `3` additions, `2` data read (Inner Loop)
 >>> IntegerSquaringModified("1 1",Base=2)
 >>> 1 0 0 1 
 ```
+Complexity : `3` additions, `2` data read (Inner Loop)
 
 # Run
 
@@ -80,4 +81,3 @@ Complexity : `3` additions, `2` data read (Inner Loop)
 '2 5 6'
 ```
 
-Complexity : `3` additions, `2` data read (Inner Loop)
