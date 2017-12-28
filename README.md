@@ -31,7 +31,7 @@
 >>> IntegerMultiplication("1 1","1 1",Base=2)
 >>> 1 0 0 1 
 ```
-
+Complexity : `3` additions, `2` data read (Inner Loop)
 
 
 
@@ -79,3 +79,5 @@
 >>> IntegerMultiplication("1 6","1 6",Base=10)
 '2 5 6'
 ```
+
+Complexity : `3` additions, `2` data read (Inner Loop)
