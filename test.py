@@ -2,7 +2,7 @@
 '''
 >>> from main import *
 >>> for i in range(1,1200):
-...    IntegerSquaring(" ".join(str(i)),Base=10)
+...    IntegerSquaringModified(" ".join(str(i)),Base=10)
 '1'
 '4'
 '9'
@@ -2105,5 +2105,7 @@
 '7 8 3'
 '8 1 2'
 '8 4 1'
+>>> IntegerSquaring('1 1',Base=2)
+'1 1 0 1'
 
 '''

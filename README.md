@@ -50,6 +50,11 @@
 <img src="files/example1.png">
 <p>Algorithm-3 Example</p>
 * It seems this algorithm is wrong and `(U,H,L)` should be set to zero after each iteration and add shifted `(U,H,L)` outside of the loop (modified in code)
+```
+>>> IntegerSquaring("1 1","1 1",Base=2)
+>>> 1 1 0 1 
+```
+
 <img src="files/example2.png">
 <p>Algorithm-3(Modified) Example</p>
 
@@ -57,19 +62,20 @@
 </div> 
 
 ```
->>> IntegerSquaring("1 1",Base=2)
+>>> IntegerSquaringModified("1 1",Base=2)
 >>> 1 0 0 1 
 ```
 
 # Run
 
 1. Run `main.py` for automatic doctest --> `python main.py` or `python3 main.py`
-2. Import `IntegerSquaring` and `IntegerMultiplication` from `main.py` :
+2. Import `IntegerSquaring` and `IntegerMultiplication` and `IntegerSquaringModified` from `main.py` :
 ```
->>> from main import IntegerSquaring,IntegerMultiplication
->>> from main import IntegerSquaring,IntegerMultiplication
->>> IntegerSquaring("1 0",Base=10)
-'1 0 0'
->>> IntegerMultiplication("1 0","1 2",Base=10)
-'1 2 0'
+>>> from main import IntegerSquaring,IntegerMultiplication,IntegerSquaringModified
+>>> IntegerSquaring("1 6",Base=10)
+'3 8 6'
+>>> IntegerSquaringModified("1 6",Base=10)
+'2 5 6'
+>>> IntegerMultiplication("1 6","1 6",Base=10)
+'2 5 6'
 ```
