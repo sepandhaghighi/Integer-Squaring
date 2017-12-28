@@ -50,6 +50,7 @@ Complexity : `3` additions, `2` data read (Inner Loop)
 <img src="files/example1.png">
 <p>Algorithm-3 Example</p>
 * It seems this algorithm is wrong and `(U,H,L)` should be set to zero after each iteration and add shifted `(U,H,L)` outside of the loop (modified in code)
+									
 ```
 >>> IntegerSquaring("1 1","1 1",Base=2)
 >>> 1 1 0 1 
