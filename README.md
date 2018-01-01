@@ -88,3 +88,9 @@ Complexity : `3` additions, `2` data read (Inner Loop)
 
 * Enter digits with one space, for example : `31 12` in base `32`
 
+<div align="center">
+
+<a href="https://asciinema.org/a/155064" target="_blank"><img src="https://asciinema.org/a/155064.png" /></a>
+
+</div>
+
