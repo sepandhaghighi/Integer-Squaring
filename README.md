@@ -58,7 +58,7 @@ Complexity : `3` additions, `2` data read (Inner Loop)
 >>> 1 1 0 1 
 ```
 <div align="center">
-<img src="files/algorithm3_modified.png>
+<img src="files/algorithm3_modified.png">
 <p>Fig5.Algorithm-3(Modified) Pseudocode</p>
 <img src="files/example2.png">
 <p>Fig6.Algorithm-3(Modified) Example</p>
