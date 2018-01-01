@@ -86,7 +86,7 @@ Complexity : `3` additions, `2` data read (Inner Loop)
 '2 5 6'
 ```
 
-* Enter digits with one space, for example : `31 12` in base `32`
+* Enter digits with one space, for example : `"31 12"` in base `32`
 
 <div align="center">
 
