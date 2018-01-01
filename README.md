@@ -21,9 +21,9 @@
 <div align="center">
 
 <img src="files/algorithm2.png">
-<p>Algorithm-2 Pseudocode</p>
+<p>Fig1.Algorithm-2 Pseudocode</p>
 <img src="files/example3.png">
-<p>Algorithm-2 Example</p>
+<p>Fig2.Algorithm-2 Example</p>
 
 </div> 
 
@@ -46,9 +46,9 @@ Complexity : `3` additions, `2` data read (Inner Loop)
 <div align="center">
 
 <img src="files/algorithm3.png">
-<p>Algorithm-3 Pseudocode</p>
+<p>Fig3.Algorithm-3 Pseudocode</p>
 <img src="files/example1.png">
-<p>Algorithm-3 Example</p>
+<p>Fig4.Algorithm-3 Example</p>
 </div>
 
 * It seems this algorithm is wrong and `(U,H,L)` should be set to zero after each iteration and add shifted `(U,H,L)` outside of the loop (modified in code)
@@ -58,8 +58,10 @@ Complexity : `3` additions, `2` data read (Inner Loop)
 >>> 1 1 0 1 
 ```
 <div align="center">
+<img src="files/algorithm3_modified.png>
+<p>Fig5.Algorithm-3(Modified) Pseudocode</p>
 <img src="files/example2.png">
-<p>Algorithm-3(Modified) Example</p>
+<p>Fig6.Algorithm-3(Modified) Example</p>
 
 
 </div> 
